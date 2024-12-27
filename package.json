@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "prestart": "npm run build",
     "build": "tsc",
@@ -19,7 +19,7 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
-    "mysql2": "^3.9.7",
+    "mysql2": "^3.12.0",
     "sequelize": "^6.37.3"
   },
   "devDependencies": {

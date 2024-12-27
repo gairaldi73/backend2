@@ -1,4 +1,6 @@
 "use strict";
+/*const {Model, DataTypes} = require ('sequelize');
+const sequelize = require ('../db');*/
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Usuario = void 0;
 class Usuario {
@@ -20,4 +22,4 @@ exports.Usuario = Usuario;
        }
 );
 
-module.exports= UsuarioModel;*/ 
+module.exports= UsuarioModel;*/

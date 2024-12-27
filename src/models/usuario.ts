@@ -1,20 +1,17 @@
 /*const {Model, DataTypes} = require ('sequelize');
 const sequelize = require ('../db');*/
-import {Model} from "sequelize";
 
-
-export interface IUsuario{
-
-        id?: number;
-        username: string;
-        password: string
+export interface IUsuario {
+  id?: number;
+  username: string;
+  password: string;
 }
 export class Usuario {
-        constructor(
-           public id?: number,
-           public username?: string,
-           public password?: string
-        ) { }
+  constructor(
+    public id?: number,
+    public username?: string,
+    public password?: string
+  ) {}
 }
 
 /*export class UsuarioModel extends Model{}
